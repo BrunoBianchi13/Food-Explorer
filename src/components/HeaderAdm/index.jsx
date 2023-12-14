@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 import img from '../../assets/logo.svg';
 
 
-import { AiOutlineMenu } from 'react-icons/Ai'
-import { IoMdClose } from "react-icons/io";
-import { PiSignOut,PiReceipt } from 'react-icons/Pi'
-import { useAuth } from "../../hooks/auth";
+
+import { IoMdClose,IoMdMenu } from "react-icons/io";
+import { FaSignOutAlt } from "react-icons/fa"
+import { useAuth } from "../../hooks/auth"
 export function HeaderAdm({children}){
 
   const { signOut } = useAuth()
@@ -30,7 +30,7 @@ export function HeaderAdm({children}){
       <div className={active ? "hadOpen" : "had" }>
 
         <div className="icon-open">
-          <AiOutlineMenu onClick={e=> ToggleMode()}/>
+          <IoMdMenu onClick={e=> ToggleMode()}/>
         </div>
     
         
@@ -57,7 +57,7 @@ export function HeaderAdm({children}){
               
           </div>
           
-          <PiSignOut onClick={e => signOut(e)} ></PiSignOut>
+          <FaSignOutAlt onClick={e => signOut(e)} />
             
         </div>
         

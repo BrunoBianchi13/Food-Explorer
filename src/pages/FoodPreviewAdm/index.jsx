@@ -4,7 +4,7 @@ import img from '../../assets/Dish.svg';
 
 
 
-import { Button } from '../../components/Button'
+
 import { HeaderAdm } from '../../components/HeaderAdm'
 import { Footer } from '../../components/Footer'
 import { ButtonBack } from '../../components/ButtonBack'

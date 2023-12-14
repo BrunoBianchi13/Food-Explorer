@@ -1,9 +1,8 @@
 import { Container} from "./style";
 
-import logo from '../../assets/Dish.svg';
-
-
-import { AiOutlineHeart,AiOutlineMinus,AiOutlinePlus } from 'react-icons/Ai'
+import { CiHeart } from "react-icons/ci";
+import { FaPlus } from "react-icons/fa6";
+import { FaMinus } from "react-icons/fa";
 import { api } from "../../services/api";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -38,7 +37,7 @@ export function Card({data, ...rest}){
     <Container>
       <div className="info-card">
         <div className="like">
-          <AiOutlineHeart></AiOutlineHeart>
+          <CiHeart/>
         </div>
         
         <img src={avatarUrl} onClick={() => handleDetails(data.id)} alt="" />
@@ -49,9 +48,9 @@ export function Card({data, ...rest}){
 
         <div className="cart">
           <div className="qtde-card">
-            <AiOutlineMinus onClick={() => minusQtd()}/>
+            <FaMinus onClick={() => minusQtd()}/>
             <span>{qtde}</span>
-            <AiOutlinePlus onClick={() => plusQtd()}/>
+            <FaPlus onClick={() => plusQtd()}/>
           </div> 
 
           

@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom"
 
 import { MdOutlineFileUpload  } from "react-icons/md";
-import { IoIosArrowBack } from "react-icons/io";
 
 import { IngItem } from '../../components/IngItem'
 import { Textarea } from "../../components/Textarea"

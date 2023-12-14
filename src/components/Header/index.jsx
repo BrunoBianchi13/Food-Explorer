@@ -3,10 +3,9 @@ import { useState } from "react";
 import { useAuth } from "../../hooks/auth";
 
 import img from '../../assets/logo.svg';
-import { Input } from "../Input";
-import { AiOutlineMenu } from 'react-icons/Ai'
-import { IoMdClose } from "react-icons/io";
-import { PiSignOut,PiReceipt } from 'react-icons/Pi'
+import { IoMdClose,IoMdMenu } from "react-icons/io";
+import { PiReceipt } from "react-icons/pi";
+import { FaSignOutAlt } from "react-icons/fa"
 import { useNavigate } from "react-router-dom";
 
 export function Header({children}){
@@ -33,7 +32,7 @@ export function Header({children}){
       <div className={active ? "hadOpen" : "had" }>
 
         <div className="icon-open">
-          <AiOutlineMenu onClick={e=> ToggleMode()}/>
+          <IoMdMenu onClick={e=> ToggleMode()}/>
         </div>
         
         
@@ -55,12 +54,12 @@ export function Header({children}){
         <div className="desk">
         
               <div className="cart-desk">
-              <PiReceipt></PiReceipt>
+              <PiReceipt/>
               <span>Pedidos</span>
               <span>( 0 )</span>
           </div>
           
-              <PiSignOut onClick={e => signOut(e)} ></PiSignOut>
+              <FaSignOutAlt onClick={e => signOut(e)} />
             
         </div>
         

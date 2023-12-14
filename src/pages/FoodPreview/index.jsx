@@ -1,19 +1,13 @@
 import { Container } from "./styles"
 
-import { GoPlus } from "react-icons/go";
-import { LuMinus } from "react-icons/lu";
-
-import img from '../../assets/Dish.svg';
-
 import { ButtonBack } from '../../components/ButtonBack'
-import { Button } from '../../components/Button'
 import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer'
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { api } from "../../services/api";
-import { AiOutlineMinus, AiOutlinePlus } from "react-icons/Ai";
-
+import { FaPlus } from "react-icons/fa6";
+import { FaMinus } from "react-icons/fa";
 
 export function FoodPreview(){
 
@@ -102,12 +96,11 @@ export function FoodPreview(){
               
               </div>
               <div className="infoCar">
-              <AiOutlineMinus onClick={() => minusQtd()}/>
+              <FaMinus onClick={() => minusQtd()}/> 
                 <span>{qtde}</span>
-              <AiOutlinePlus onClick={() => plusQtd()}/>
-                  
+                <FaPlus onClick={() => plusQtd()}/>            
                 <input id="btn-editar" type="button" value={`incluir R$ ` + food.price} onClick={() => handleDetails()}/>
-
+                
               </div>
               
               </div>
