@@ -7,8 +7,9 @@
 <a href="#telas">Telas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#instacao">Instalação e uso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
+<a href="#instalação">Instalação</a>&nbsp;&nbsp;&nbsp;
+<br>
+
 
 <img alt="" src="./src/assets/a.png">
 
@@ -50,7 +51,7 @@ Link do layout usado no projeto:
 
 - [Layout Figma](https://www.figma.com/file/TA9lm0BzTiebtxxD2MNAhV/food-explorer-v2-(Community)?type=design&node-id=201-1532&mode=design&t=zjEzwgL6qBDnPeGF-0)
 
-## Instalação e uso
+## Instalação 
 
 Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com/). A partir de sua linha de comando:
 

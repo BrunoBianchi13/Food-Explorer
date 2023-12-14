@@ -10,17 +10,16 @@ export const Container = styled.div`
     padding-top:15.8rem;
     padding-left: 6.8rem;
     padding-right: 4.7rem;
-
-    
 > .title{
 
-    display:flex;
-    justify-content: flex-start;
-    margin-bottom: 7.3rem;
-    
+display:flex;
+align-items: center;
+justify-content: flex-start;
+margin-bottom: 7.3rem;
+gap: 1rem;
 
 }
-    
+
 
 
 .form_main h1{

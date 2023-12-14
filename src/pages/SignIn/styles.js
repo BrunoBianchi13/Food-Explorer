@@ -13,8 +13,10 @@ export const Container = styled.div`
 > .title{
 
     display:flex;
+    align-items: center;
     justify-content: flex-start;
     margin-bottom: 7.3rem;
+    gap: 1rem;
 
 }
 

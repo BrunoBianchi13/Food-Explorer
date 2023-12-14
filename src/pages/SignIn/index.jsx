@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import { useAuth } from "../../hooks/auth"
 import { useState } from "react"
 
-
+import img from '../../assets/logo.svg';
 
 export function SignIn(){
   const[email, setEmail] = useState("")
@@ -26,7 +26,7 @@ export function SignIn(){
     <main>
       <Container>
       <div className="title">
-          <Logo></Logo>
+          <img src={img} alt="" />
           <h1>food explorer</h1>
       </div>
 

@@ -7,6 +7,7 @@ import { Container, Logo } from "./styles"
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 
+import img from '../../assets/logo.svg';
 
 export function SignUp(){
 
@@ -40,7 +41,7 @@ export function SignUp(){
     <main>
       <Container>
       <div className="title">
-          <Logo></Logo>
+        <img src={img} alt="" />
           <h1>food explorer</h1>
       </div>
 
