@@ -9,7 +9,7 @@
 <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#instalação">Instalação</a>&nbsp;&nbsp;&nbsp;
 <br>
-
+<p align="center">
 
 <img alt="" src="./src/assets/a.png">
 
